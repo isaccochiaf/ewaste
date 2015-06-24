@@ -186,10 +186,10 @@ header.smaller #title-head {
 
 .title-chapter-page {
     height: 100%;
-   
+    width: 100%;
     text-align: center;
-    margin-top: 126px;
-    margin-bottom: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 .title-chapter-page h1{
     margin:-20px;
@@ -220,7 +220,7 @@ header.smaller #title-head {
    
 }
 
-.firstcharacter { float: left; color: #da960c; font-size: 120px; line-height: 100px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: quattrocento; }
+.firstcharacter { float: left; color: #da960c; font-size: 120px; line-height: 80px; padding-top: 15px; padding-right: 8px; padding-left: 3px; font-family: Lyon Text OSF Web; font-weight: 700 }
 
 .tabs-content h3 {
     
@@ -235,7 +235,7 @@ header.smaller #title-head {
     color: #646464;
     
 }
-
+.yellow {color: #da960c }
 /*------------------TYPOGRAPHY-----------*/
 
 .tabs a:focus{
