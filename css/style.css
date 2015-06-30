@@ -260,8 +260,20 @@ header.smaller #title-head {
 }
 
 
+.img-01{
+background-image: url(../images/px-01.jpg);
+}
+
+.img-02{
+background-image: url(../images/px-02.jpg);
+}
+
+.img-03{
+background-image: url(../images/px-03.jpg);
+}
+
 .px-01 {
-    background-image: url(../images/px-01.jpg);
+    
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
