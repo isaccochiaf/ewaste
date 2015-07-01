@@ -265,11 +265,15 @@ background-image: url(../images/px-01.jpg);
 }
 
 .img-02{
-background-image: url(../images/px-02.jpg);
+background-image: url(../images/px-04.jpg);
 }
 
 .img-03{
 background-image: url(../images/px-03.jpg);
+}
+
+.img-04{
+background-image: url(../images/px-02.jpg);
 }
 
 .px-01 {
