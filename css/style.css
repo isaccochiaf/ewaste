@@ -8,9 +8,10 @@
 
 @media only screen and (max-width: 40em) { 
     .tabs .tab-title > a {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         margin: 0px;
+        padding: -10px;
     }
     .tabs .tab-title > a img {
         width: 20px;
@@ -262,7 +263,7 @@ header.smaller #title-head {
 /*------------------TYPOGRAPHY-----------*/
 
 .intro-names{
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .names p{

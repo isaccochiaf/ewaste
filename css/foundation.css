@@ -4703,7 +4703,8 @@ th.hide-for-touch {
 
 .tabs-content {
   margin-bottom: 1.5rem;
-  width: 100%; }
+  width: 100%; 
+    margin-top: -50px;}
   .tabs-content:before, .tabs-content:after {
     content: " ";
     display: table; }
