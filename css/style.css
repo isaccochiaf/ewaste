@@ -122,12 +122,12 @@ header nav a {
     top:10px;
     right: 300px;
     opacity: 0;
-    border: solid #fff 2px;
     height: 100px;
     width: 200px;
+     border: solid #fff 1px;
     padding: 5px 10px;
-    border-radius: 10px;
     margin: 5px;
+    border-radius: 15px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -140,27 +140,30 @@ header nav a:hover {
 }
 
 
+
 header.smaller {
     height: 45px;
 }
 header.smaller img {
     
-    height: 35px;
+    height: 25px;
     line-height: 75px;
     margin-top: 9px;
     margin-left: 9px;
     
 }
+header nav ul li{display: inline-block;}
 header.smaller nav a {
     
-    background-color: transparent;
+    
     top:10px;
-    right: 300px;
+    
     opacity: 1;
     border: solid #fff 1px;
     padding: 5px 10px;
     margin: 5px;
     border-radius: 15px;
+    z-index: 1000;
 }
 
 header.smaller #title-head {
@@ -372,15 +375,47 @@ background-image: url(../images/section_03_burning_02.jpg);
     background-color: rgba(255,255,255,0.9);
     position:fixed;
     margin:0;
+    top: 0;
     height:100%;
     width:100%;
     display:none;
 }
 
 .overlay-first-band {
-    background-color: rgba(192,57,43,0.8);
+    background-color: rgba(218, 150, 12, 0.78);
     height:23%;
     padding-top:4%;
     color:#fff !important;
         
+}
+
+.overlay-first-band a {
+     border: solid #fff 1px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    color:#fff !important;
+        
+}
+
+
+
+#close {
+    float:right;
+    position:absolute;
+    padding:15px 15px 0 0;
+    right:0;
+    z-index:1000
+}
+
+.show{
+    z-index: 1000;
+    height:;
+}
+
+.overlay-second-band {
+    padding-top:4%;
+}
+.overlay-second-band p {
+    font-size:1em;
 }
