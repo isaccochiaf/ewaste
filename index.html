@@ -20,14 +20,21 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/font/stylesheet.css" />
     <link rel="stylesheet" href="css/font-awesome.css">
+    
     <script src="js/vendor/modernizr.js"></script>
-
     <script src="js/classie.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
-
-
     <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
-
+   <link href="video-js/video-js.css" rel="stylesheet">
+    <script src="video-js/video.js"></script>
+  
+    <style type="text/css">
+  .vjs-default-skin .vjs-play-progress,
+  .vjs-default-skin .vjs-volume-level { background-color: #e18f07 }
+  .vjs-default-skin .vjs-control-bar { font-size: 68% }
+</style>
+   
+    
     <script>
         function init() {
             window.addEventListener('scroll', function (e) {
@@ -44,7 +51,6 @@
             });
         }
         window.onload = init();
-
 
         $(function () {
             $(".show a").click(
@@ -117,12 +123,12 @@
                     <ul>
                         <li><a id="ref_tw" href="http://twitter.com/home?status=Vita%2C morte e miracoli dei rifiuti elettronici. Guarda il web documentario URL %23LifeDeathMiraclesEwaste @JacopoOttaviani&related=JacopoOttaviani" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;"><i class="fa fa-twitter"></i></a></li>
                         <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li class="show"><a href="#">about</a></li>
+                        <li class="show"><a href="#"><i class="fa fa-info-circle"> about</i></a></li>
                     
                     </ul>
                     
                     
-                    <a></a>
+                    
                     
                 </nav>
             </div>
@@ -166,9 +172,9 @@
         <div class="row">
             <div class="medium-8 medium-centered columns">
                 <p>
-                    <span class="firstcharacter">O</span>gni anno il mondo produce più di 40 milioni di tonnellate di rifiuti elettrici ed elettronici (conosciuto anche come e-waste, electronic waste). Una sterminata montagna di frigoriferi, computer, televisori, telefoni, condizionatori d’aria, lampade, forni, tostapane e altri dispositivi elettrici ed elettronici. L’equivalente del peso di sette piramidi di Cheope.
-                    <br/>I maggiori produttori pro-capite sono gli Stati Uniti e l’Unione europea. I paesi emergenti, come la Cina, ne producono sempre di più. Dei rifiuti prodotti, solo una piccola parte – circa il 15,5 per cento nel 2014 – viene riciclata con metodi efficienti e sicuri per l’ambiente.
-                    <br/>Il Ghana, paese dell’Africa occidentale in forte crescita economica, è un importante centro di ricezione, riutilizzo, recupero e smaltimento di rifiuti elettronici. Accra, la capitale, ospita un fervente mercato dell’usato, una rete diffusa di negozi di riparazione e una serie di iniziative che tentano di sprigionare il potenziale dell’e-waste. Ma è anche sede di una gigantesca ed inquinatissima discarica di rifiuti elettronici.
+                    <span class="firstcharacter">O</span>gni anno il mondo produce più di 40 milioni di tonnellate di rifiuti elettrici ed elettronici (conosciuto anche come e-waste, electronic waste). Una sterminata montagna di frigoriferi, computer, televisori, telefoni, condizionatori d’aria, lampade, forni, tostapane e altri dispositivi elettrici ed elettronici. L’equivalente del peso di sette piramidi di Cheope. I maggiori produttori pro-capite sono gli Stati Uniti e l’Unione europea. I paesi emergenti, come la Cina, ne producono sempre di più. Dei rifiuti prodotti, solo una piccola parte – circa il 15,5 per cento nel 2014 – viene riciclata con metodi efficienti e sicuri per l’ambiente.
+
+Il Ghana, paese dell’Africa occidentale in forte crescita economica, è un importante centro di ricezione, riutilizzo, recupero e smaltimento di rifiuti elettronici. Accra, la capitale, ospita un fervente mercato dell’usato, una rete diffusa di negozi di riparazione e una serie di iniziative che tentano di sprigionare il potenziale dell’e-waste. Ma è anche sede di una gigantesca ed inquinatissima discarica di rifiuti elettronici.
                 </p>
             </div>
         </div>
@@ -186,6 +192,8 @@
             </div>
         </div>
 
+        
+        
         <div class="row title-chapter-page">
             <div class="large-12 columns">
                 <img src="images/flow.gif">
@@ -206,12 +214,32 @@
         <div class="px-01 img-01">
 
         </div>
+        
+        
+        
         <div class="row">
             <div class="medium-8 medium-centered columns">
                 <p>
-                    <span class="firstcharacter">U</span>na famiglia europea che decide di comprare un televisore piatto. Un ufficio ministeriale che si libera delle sue vecchie stampanti. Una scuola che sostituisce i computer del laboratorio di informatica. Un’organizzazione non governativa che rinnova gli uffici. Un adolescente che cambia smartphone per il modello successivo. Sono queste le operazioni che – moltiplicate per il giusto numero – producono le milioni di tonnellate di rifiuti elettronici che ogni anno inondano il pianeta.
-                    <br />Molti di questi apparecchi elettrici ed elettronici dismessi hanno ancora un valore commerciale, perché o ancora funzionano o contengono materiali costosi che possono essere riciclati. Per questo vengono caricati su container, imbarcati e spediti dai porti dei paesi più sviluppati verso paesi in via di sviluppo, come il Ghana. Ad aspettarli a destinazione c’è un capillare giro di intermediari, rivenditori, riparatori e commercianti dell’usato che sceglie, ne testa il funzionamento e rimette in circolo l’e-waste dei paesi ricchi nel mercato locale. Questo grande mercato rifornisce imprese, uffici e famiglie locali di elettrodomestici ed elettronica di seconda mano. Così apparecchi che hanno vissuto una prima vita ne iniziano un’altra in Africa.
-                    <br />Gli oggetti che arrivano rotti – contravvenendo alla convenzione di Basilea che vieta il trasferimento tra paesi di rifiuti tossici, tra cui gli apparecchi elettronici non funzionanti – e quelli che muoiono dopo il loro secondo utilizzo finiscono nelle discariche locali.
+                    <span class="firstcharacter">U</span>na famiglia europea che decide di comprare un televisore piatto. Un ufficio ministeriale che si libera delle sue vecchie stampanti. Una scuola che sostituisce i computer del laboratorio di informatica. Un’organizzazione non governativa che rinnova gli uffici. Un adolescente che cambia smartphone per il modello successivo. Sono queste le operazioni che – moltiplicate per il giusto numero – producono le milioni di tonnellate di rifiuti elettronici che ogni anno inondano il pianeta. Molti di questi apparecchi elettrici ed elettronici dismessi hanno ancora un valore commerciale, perché o ancora funzionano o contengono materiali costosi che possono essere riciclati. Per questo vengono caricati su container, imbarcati e spediti dai porti dei paesi più sviluppati verso paesi in via di sviluppo, come il Ghana. Ad aspettarli a destinazione c’è un capillare giro di intermediari, rivenditori, riparatori e commercianti dell’usato che sceglie, ne testa il funzionamento e rimette in circolo l’e-waste dei paesi ricchi nel mercato locale.</p>
+            </div>
+        </div>
+         <br /><br /><br />
+        <div class="row">
+      
+                     <video id="my_video_1" class="video-js vjs-default-skin" controls preload="none" 
+  data-setup='{}' poster="images/poster_01.jpg" >
+                        <source src="video/001_flow.mp4" type='video/mp4'>
+                        <source src="video/001_flow.webm" type='video/webm'>
+    
+                         
+                    </video>
+            </div>
+         <br /><br /><br />
+         <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <p>
+
+Questo grande mercato rifornisce imprese, uffici e famiglie locali di elettrodomestici ed elettronica di seconda mano. Così apparecchi che hanno vissuto una prima vita ne iniziano un’altra in Africa. Gli oggetti che arrivano rotti – contravvenendo alla convenzione di Basilea che vieta il trasferimento tra paesi di rifiuti tossici, tra cui gli apparecchi elettronici non funzionanti – e quelli che muoiono dopo il loro secondo utilizzo finiscono nelle discariche locali. “Il trattamento dell’e-waste nel rispetto delle leggi per il rispetto dell’ambiente dei paesi sviluppati ne eleva il costo,” spiegano i ricercatori dell’Università del Ghana in una recente pubblicazione scientifica, “e i processi altamente inquinanti tendono a migrare verso i paesi in via di sviluppo, dove queste leggi non ci sono.” In Ghana molti rifiuti elettronici vengono trasportati ad Agbogbloshie. Qui, uomini, donne e bambini estraggono – con metodi nocivi per l’ambiente e la salute – rame, alluminio e altri materiali destinati a tornare nelle industrie e alle raffinerie dei paesi sviluppati. 
                     <br />
                 </p>
 
@@ -254,30 +282,44 @@
 
         </div>
         
+        
+        
         <div class="row">
             <div class="medium-8 medium-centered columns">
                 <p>
-                    <span class="firstcharacter">A</span>i cigli delle trafficate strade di Accra è un ripetersi di negozi di elettrodomestici ed elettronica di seconda mano. L’occhio cade su file di televisori, computer, stampanti, ferri da stiro e telefoni di modelli diffusi in Europa in un passato già lontano. Alcuni frigoriferi portano ancora il segno degli adesivi attaccati chissà quando dai precedenti proprietari. 
-
-Un negozio nei pressi del mercato di Kaneshie, nella parte nord ovest della capitale, espone stampanti da ufficio appena scartate. Sugli imballaggi un’etichetta ne segna la provenienza: Roma. Nei pressi di Nkrumah Circle, un’affollatissima area di scambio e commercio, un gruppetto di uomini siedono attorno a un tavolino e riparano degli smartphone. Nel retro di una bottega che vende televisori appartenuti a un hotel olandese un ragazzo un po’ geek aggiusta, giravite in mano, una vecchia tv.
-
-“I tecnici africani, i ‘geek neri’, hanno un ruolo fondamentale”, spiega Robin Ingenthron, fondatore di Fair Trade Recycling, un’organizzazione no-profit che supporta il riciclaggio e il commercio etico dell’e-waste. “Senza i televisori riparati in questi anni, nessuno avrebbe costruito le torri della televisione. E lo stesso vale per l’accesso a internet.”
-
-“Molti degli studenti in Ghana che hanno un computer lo hanno di seconda mano,” spiega il professor Martin Oteng-Ababio, professore del dipartimento di geografia dell’Università del Ghana, “Solo attraverso il mercato dell’usato una parte della popolazione può avere accesso alla tecnologia, a competenze tecniche e know-how altrimenti difficili da reperire.” 
+                    <span class="firstcharacter">A</span>i cigli delle trafficate strade di Accra è un ripetersi di negozi di elettrodomestici ed elettronica di seconda mano. L’occhio cade su file di televisori, computer, stampanti, ferri da stiro e telefoni di modelli diffusi in Europa in un passato già lontano. Alcuni frigoriferi portano ancora il segno degli adesivi attaccati chissà quando dai precedenti proprietari. Un negozio nei pressi del mercato di Kaneshie, nella parte nord ovest della capitale, espone stampanti da ufficio appena scartate. Sugli imballaggi un’etichetta ne segna la provenienza: Roma. Nei pressi di Nkrumah Circle, un’affollatissima area di scambio e commercio, un gruppetto di uomini siedono attorno a un tavolino e riparano degli smartphone. </p>
+            </div>
+        </div>
+         <br /><br /><br />
+         <div class="row">
+      
+                     <video id="my_video_2" class="video-js vjs-default-skin" controls preload="none" 
+  data-setup='{}' poster="images/poster_02.jpg" >
+                        <source src="video/002_market.mp4" type='video/mp4'>
+                        <source src="video/002_market.webm" type='video/webm'>
+    
+                         
+                    </video>
+            </div>
+         <br /><br /><br />
+                    
+             <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <p>       
+                    
+Nel retro di una bottega che vende televisori appartenuti a un hotel olandese un ragazzo un po’ geek aggiusta, giravite in mano, una vecchia tv. “I tecnici africani, i ‘geek neri’, hanno un ruolo fondamentale”, spiega Robin Ingenthron, fondatore di Fair Trade Recycling, un’organizzazione no-profit che supporta il riciclaggio e il commercio etico dell’e-waste. “Senza i televisori riparati in questi anni, nessuno avrebbe costruito le torri della televisione. E lo stesso vale per l’accesso a internet.” L’elettronica usata riveste un ruolo importante nella società ghanese. “Molti degli studenti in Ghana che hanno un computer lo hanno di seconda mano,” spiega il professor Martin Oteng-Ababio, professore del dipartimento di geografia dell’Università del Ghana, “Solo attraverso il mercato dell’usato una parte della popolazione può avere accesso alla tecnologia, a competenze tecniche e know-how altrimenti difficili da reperire.” 
                     <br />
                 </p>
 
                 <hr>
                 <p class="quote LyonTextOSFWeb-Semibold yellow">
-                    This is a quote and is nice bold and in the middle of the text. And can be much longher, something like three lines
+                    Senza i televisori riparati in questi anni, nessuno avrebbe costruito le torri della televisione
                 </p>
                 <hr>
                 <p>
-                    Ma non mancano le ombre, ad esempio sulla qualità dell’usato importato. Alcuni studi parlano di una durata media di due o tre anni. “Quasi tutti gli apparecchi elettronici usati che entrano in Africa occidentale sono stati già utilizzati a lungo”, spiega Jim Puckett, fondatore di Ban (Basel action network), un’organizzazione non governativa che contrasta l’esportazione di rifiuti tossici. “Gli apparecchi possono essere comprati, usati per qualche settimana, mese o anno e finire subito dopo in discarica, risultando nelle statistiche come e-waste locale.”
+                   
 
-Non si sa quanto dell’e-waste in viaggio nel mondo sia soggetto a commercio illegale o scaricato direttamente nelle discariche dei paesi poveri. Ma il problema c’è. “Se anche solo il 10 o 20 per cento dei dispositivi in arrivo fosse non funzionante, come alcuni casi di studio dimostrano, date le enormi quantità trasferite questo comporterebbe un considerevole flusso di rifiuti tossici verso i paesi riceventi,” spiega Jaco Huisman, ex coordinatore di Step Initiative (Solving the e-waste problem), un progetto dell’Università delle nazioni unite per risolvere il problema dell’e-waste.
-
-A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’Interpol ha avviato il progetto Cwit (Countering Weee Illegal Trade), con l’obiettivo fare luce sul fenomeno, rafforzare i controlli internazionali e contrastare i flussi illegali di rifiuti elettronici.
+Ma non mancano le ombre, come per esempio sulla qualità dell’usato importato. Alcuni studi parlano di una durata media di due o tre anni. “Quasi tutti gli apparecchi elettronici usati che entrano in Africa occidentale sono stati già utilizzati a lungo”, spiega Jim Puckett, fondatore di Ban (Basel action network), un’organizzazione non governativa che contrasta l’esportazione di rifiuti tossici. “Gli apparecchi possono essere comprati, usati per qualche settimana, mese o anno e finire subito dopo in discarica, risultando nelle statistiche come e-waste prodotto localmente.” Non si sa quanto dell’e-waste in viaggio nel mondo sia soggetto a commercio illegale o scaricato direttamente nelle discariche dei paesi poveri. Ma il problema esiste. “Se anche solo il 10 o 20 per cento dei dispositivi in arrivo fosse non funzionante, come alcuni casi di studio dimostrano, date le enormi quantità trasferite questo comporterebbe un considerevole flusso di rifiuti tossici verso i paesi riceventi,” spiega Jaco Huisman, ex coordinatore di Step Initiative (Solving the e-waste problem), un progetto dell’Università delle nazioni unite che si pone l’obiettivo di risolvere il problema dell’e-waste.
 
                     <br />
                 </p>
@@ -300,6 +342,7 @@ A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’I
         
         
         
+
         
        <!-- --------------------------------------CHAPTER_02 .------------------------ --> 
         
@@ -326,29 +369,48 @@ A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’I
         </div>
         
         <div class="row">
+      
+                     
+            </div>
+        
+        <div class="row">
             <div class="medium-8 medium-centered columns">
                 <p>
-                    <span class="firstcharacter">A</span>i cigli delle trafficate strade di Accra è un ripetersi di negozi di elettrodomestici ed elettronica di seconda mano. L’occhio cade su file di televisori, computer, stampanti, ferri da stiro e telefoni di modelli diffusi in Europa in un passato già lontano. Alcuni frigoriferi portano ancora il segno degli adesivi attaccati chissà quando dai precedenti proprietari. 
+                    <span class="firstcharacter">D</span>efinire Agbogbloshie “la più grande discarica di rifiuti elettronici d’Africa” è paradossalmente riduttivo: in realtà è una città nella città, dove vivono decine di migliaia di persone. Casupole, negozi, moschee, strade fangose, cumuli di rottami, un grande mercato di cipolle. Tra le vie di Agbogbloshie molte persone trovano nell’e-waste una fonte di sostentamento. Uomini, donne e bambini smantellano, recuperano, pesano, trasportano e rivendono pezzi e metalli ricavati dai rottami. Agbogbloshie è una zona molto povera e inquinata, che include uno slum soprannominato Sodoma e Gomorra e una discarica di rottami metallici. “Quello che una volta era un paesaggio verde e fertile è oggi un cimitero di plastiche ed elettrodomestici dismessi,” racconta Mike Anane, attivista ambientalista di Accra. “Gli e-waste boys bruciano quintali di cavi elettrici per estrarre il rame e poi rivenderlo per pochi cedis al chilo. I fumi tossici si elevano in cielo, avvelenano l’aria e vanno a riposarsi sul suolo e sugli ortaggi in vendita al mercato,” spiega Anane. Le conseguenze ricadono direttamente sugli abitanti. “I nostri ragazzi hanno problemi di salute molto seri”, racconta Wolfgang Mac-Din, fondatore di Help the African Child, una fondazione che supporta i bambini di Agbogbloshie fornendo loro, tra le altre cose, una scuola gratuita e mascherine di protezione. “Alcuni di loro, come Fuseini, 19 anni, o Ben, 16 anni, li abbiamo trovati morti. Altri hanno il cancro.” </p>
+            </div>
+        </div>
+         <br /><br /><br />
+                    <div class="row">
+      
+                     <video id="my_video_3" class="video-js vjs-default-skin" controls preload="none" 
+  data-setup='{}' poster="images/poster_03.jpg" >
+                        <source src="video/003_dump.mp4" type='video/mp4'>
+                        <source src="video/003_dump.mp4" type='video/webm'>
+    
+                         
+                    </video>
+            </div>
+        <br /><br /><br />
+                    
+                     <div class="row">
+                         
 
-Un negozio nei pressi del mercato di Kaneshie, nella parte nord ovest della capitale, espone stampanti da ufficio appena scartate. Sugli imballaggi un’etichetta ne segna la provenienza: Roma. Nei pressi di Nkrumah Circle, un’affollatissima area di scambio e commercio, un gruppetto di uomini siedono attorno a un tavolino e riparano degli smartphone. Nel retro di una bottega che vende televisori appartenuti a un hotel olandese un ragazzo un po’ geek aggiusta, giravite in mano, una vecchia tv.
+            <div class="medium-8 medium-centered columns">
+                <p>
+                    Le autorità ghanesi hanno più volte avanzato l’ipotesi di demolire Agbogbloshie e nel giugno del 2015 sono state avviate le prime operazioni. Le ruspe del governo locale, con la scusa ufficiale di ripulire i canali di scolo, hanno demolito una parte dell’area lasciando senza casa migliaia di persone. Un approccio repressivo che desta le critiche della società civile. “Demolendo Agbogbloshie il rischio è che ne nascano tante altre, più piccole, sparse sul territorio ghanese,” spiega il professor Oteng-Ababio. E allo stesso modo la pensa Rafa Font, operatore di Recyhub, un’organizzazione che supporta il riciclaggio sostenibile dell’e-waste. “La demolizione e lo sfratto della popolazione sono un errore gravissimo,” spiega Font, “Così non si risolve il problema, ma semplicemente si sposta altrove.” 
 
-“I tecnici africani, i ‘geek neri’, hanno un ruolo fondamentale”, spiega Robin Ingenthron, fondatore di Fair Trade Recycling, un’organizzazione no-profit che supporta il riciclaggio e il commercio etico dell’e-waste. “Senza i televisori riparati in questi anni, nessuno avrebbe costruito le torri della televisione. E lo stesso vale per l’accesso a internet.”
-
-“Molti degli studenti in Ghana che hanno un computer lo hanno di seconda mano,” spiega il professor Martin Oteng-Ababio, professore del dipartimento di geografia dell’Università del Ghana, “Solo attraverso il mercato dell’usato una parte della popolazione può avere accesso alla tecnologia, a competenze tecniche e know-how altrimenti difficili da reperire.” 
                     <br />
                 </p>
 
                 <hr>
                 <p class="quote LyonTextOSFWeb-Semibold yellow">
-                    This is a quote and is nice bold and in the middle of the text. And can be much longher, something like three lines
+                    Demolendo Agbogbloshie il rischio è che ne nascano tante altre, più piccole
                 </p>
                 <hr>
                 <p>
-                    Ma non mancano le ombre, ad esempio sulla qualità dell’usato importato. Alcuni studi parlano di una durata media di due o tre anni. “Quasi tutti gli apparecchi elettronici usati che entrano in Africa occidentale sono stati già utilizzati a lungo”, spiega Jim Puckett, fondatore di Ban (Basel action network), un’organizzazione non governativa che contrasta l’esportazione di rifiuti tossici. “Gli apparecchi possono essere comprati, usati per qualche settimana, mese o anno e finire subito dopo in discarica, risultando nelle statistiche come e-waste locale.”
+                   
 
-Non si sa quanto dell’e-waste in viaggio nel mondo sia soggetto a commercio illegale o scaricato direttamente nelle discariche dei paesi poveri. Ma il problema c’è. “Se anche solo il 10 o 20 per cento dei dispositivi in arrivo fosse non funzionante, come alcuni casi di studio dimostrano, date le enormi quantità trasferite questo comporterebbe un considerevole flusso di rifiuti tossici verso i paesi riceventi,” spiega Jaco Huisman, ex coordinatore di Step Initiative (Solving the e-waste problem), un progetto dell’Università delle nazioni unite per risolvere il problema dell’e-waste.
-
-A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’Interpol ha avviato il progetto Cwit (Countering Weee Illegal Trade), con l’obiettivo fare luce sul fenomeno, rafforzare i controlli internazionali e contrastare i flussi illegali di rifiuti elettronici.
+D’altronde chi è costretto a vivere qui e a riciclare i rifiuti elettronici a mani nude lo fa per motivi economici. “Questi bambini e ragazzi vivono in condizioni di estrema povertà. Arrivano dal nord del Ghana senza alcun appoggio e per non morire di fame sopravvivono così”, continua Mac-Din, “e pochi di loro ne escono incolumi.” Preoccupazioni che trovano conferma nelle pubblicazioni scientifiche. I metalli pesanti dell’e-waste impregnano l’aria, il suolo e le acque di Agbogbloshie. Quantità preoccupanti di piombo, alluminio e rame sono stati rilevati nel sangue, nelle urine e nel latte materno degli abitanti del luogo. Una contaminazione che rischia di diffondersi come un cancro se il governo si limita a brutali operazioni di sfratto senza offrire le alternative opportune.
 
                     <br />
                 </p>
@@ -469,34 +531,54 @@ A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’I
         </div>
         
         <div class="row">
+      
+                    
+            </div>
+        
+        <div class="row">
             <div class="medium-8 medium-centered columns">
                 <p>
-                    <span class="firstcharacter">A</span>i cigli delle trafficate strade di Accra è un ripetersi di negozi di elettrodomestici ed elettronica di seconda mano. L’occhio cade su file di televisori, computer, stampanti, ferri da stiro e telefoni di modelli diffusi in Europa in un passato già lontano. Alcuni frigoriferi portano ancora il segno degli adesivi attaccati chissà quando dai precedenti proprietari. 
+                    <span class="firstcharacter">C</span>ome tutte le medaglie, anche Agbogbloshie ha due facce. Una è quella cancerogena, contaminata, fatta di metalli pesanti e fumi tossici. L’altra è quella di chi lavora sprigionare il suo potenziale nascosto. Tra questi c’è sicuramente DK Osseo-Asare, uno dei fondatori di Amp (Agbogbloshie makerspace platform), una piattaforma con l’obiettivo di trasformare Agbogbloshie in un laboratorio creativo e sostenibile. “Agbogbloshie non è una semplice discarica,” spiega Osseo-Asare, mentre ci mostra un computer assemblato all’interno di una tanica di plastica, “Agbogbloshie è una gigantesca fabbrica a cielo aperto, dove chiunque può raccogliere dei materiali di scarto e dargli una nuova vita.” Amp non è l’unica organizzazione a seguire questa filosofia costruttiva. </p>
+            </div>
+        </div>
+         <br /><br /><br />
+                    <div class="row">
+      
+                     <video id="my_video_4" class="video-js vjs-default-skin" controls preload="none" 
+  data-setup='{}' poster="images/poster_04.jpg" >
+                        <source src="video/004_solutions.mp4" type='video/mp4'>
+                        <source src="video/004_solutions.webm" type='video/webm'>
+    
+                         
+                    </video>
+            </div>
+                   <br /><br /><br />  
+                    <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <p>
+                    L’approccio costruttivo di Amp e delle organizzazioni che credono nel potenziale dell’e-waste richiede un cambio di narrativa. “Non ci piace l’immagine paternalistica con cui Agbogbloshie è stata spesso ritratta dai media occidentali negli ultimi anni,” spiega Janet Gunter, co-fondatrice del Restart Project, un’organizzazione che si pone l’obiettivo di “riparare la relazione tra consumatori e dispositivi elettronici”, sottolineando la necessità di soluzioni pratiche per “supportare il governo e le persone al fine di migliorare le condizioni di vita della comunità e a risanare l’ambiente.” 
 
-Un negozio nei pressi del mercato di Kaneshie, nella parte nord ovest della capitale, espone stampanti da ufficio appena scartate. Sugli imballaggi un’etichetta ne segna la provenienza: Roma. Nei pressi di Nkrumah Circle, un’affollatissima area di scambio e commercio, un gruppetto di uomini siedono attorno a un tavolino e riparano degli smartphone. Nel retro di una bottega che vende televisori appartenuti a un hotel olandese un ragazzo un po’ geek aggiusta, giravite in mano, una vecchia tv.
 
-“I tecnici africani, i ‘geek neri’, hanno un ruolo fondamentale”, spiega Robin Ingenthron, fondatore di Fair Trade Recycling, un’organizzazione no-profit che supporta il riciclaggio e il commercio etico dell’e-waste. “Senza i televisori riparati in questi anni, nessuno avrebbe costruito le torri della televisione. E lo stesso vale per l’accesso a internet.”
-
-“Molti degli studenti in Ghana che hanno un computer lo hanno di seconda mano,” spiega il professor Martin Oteng-Ababio, professore del dipartimento di geografia dell’Università del Ghana, “Solo attraverso il mercato dell’usato una parte della popolazione può avere accesso alla tecnologia, a competenze tecniche e know-how altrimenti difficili da reperire.” 
                     <br />
                 </p>
 
                 <hr>
                 <p class="quote LyonTextOSFWeb-Semibold yellow">
-                    This is a quote and is nice bold and in the middle of the text. And can be much longher, something like three lines
+                    Agbogbloshie è una gigantesca fabbrica a cielo aperto
                 </p>
                 <hr>
                 <p>
-                    Ma non mancano le ombre, ad esempio sulla qualità dell’usato importato. Alcuni studi parlano di una durata media di due o tre anni. “Quasi tutti gli apparecchi elettronici usati che entrano in Africa occidentale sono stati già utilizzati a lungo”, spiega Jim Puckett, fondatore di Ban (Basel action network), un’organizzazione non governativa che contrasta l’esportazione di rifiuti tossici. “Gli apparecchi possono essere comprati, usati per qualche settimana, mese o anno e finire subito dopo in discarica, risultando nelle statistiche come e-waste locale.”
+                    E trasformare gli scarti elettronici in risorsa. Non a caso l’e-waste, come spiega l’ultimo rapporto dell’Università delle nazioni unite, può essere visto come una grande miniera tossica che custodisce un tesoro nascosto. Oltre agli elementi cancerogeni come piombo, mercurio e cadmio, i rifiuti elettronici prodotti nel 2014 conterrebbero l’equivalente di 48 miliardi di euro in plastiche e metalli preziosi, tra cui 300 tonnellate di oro. Una miniera da cui attingere coscientemente e il cui ricavato offre interessanti possibilità di sviluppo. Un tesoro pronto per essere investito per salvaguardare l’ambiente, le vite dei lavoratori di Agbogbloshie e aumentare le possibilità di un futuro sostenibile.
 
-Non si sa quanto dell’e-waste in viaggio nel mondo sia soggetto a commercio illegale o scaricato direttamente nelle discariche dei paesi poveri. Ma il problema c’è. “Se anche solo il 10 o 20 per cento dei dispositivi in arrivo fosse non funzionante, come alcuni casi di studio dimostrano, date le enormi quantità trasferite questo comporterebbe un considerevole flusso di rifiuti tossici verso i paesi riceventi,” spiega Jaco Huisman, ex coordinatore di Step Initiative (Solving the e-waste problem), un progetto dell’Università delle nazioni unite per risolvere il problema dell’e-waste.
-
-A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’Interpol ha avviato il progetto Cwit (Countering Weee Illegal Trade), con l’obiettivo fare luce sul fenomeno, rafforzare i controlli internazionali e contrastare i flussi illegali di rifiuti elettronici.
 
                     <br />
                 </p>
-               <!-- <h4>Il valore dei materiali recuperabili, in milioni di euro</h4>
-<iframe src="//d1xmhrieqbl688.cloudfront.net/Am4ES/3/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="700" height="300"></iframe>-->
+                <h4>Il valore dei materiali recuperabili, in milioni di euro</h4>
+                <br />
+                <div class="flex-video">
+                    <iframe src="//d1xmhrieqbl688.cloudfront.net/Am4ES/3/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="700" height="300"></iframe>
+                </div>
+
 
 
             </div>
@@ -505,7 +587,7 @@ A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’I
        <!-- --------------------------------------CHAPTER_04 .------------------------ --> 
 
 
-
+        <script src="js/videoresize.js"></script> 
         <script src="js/waypoint.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/vendor/jquery.js"></script>
@@ -514,6 +596,8 @@ A causa della vaghezza dei numeri e del rischio di infiltrazione criminale l’I
         <script>
             $(document).foundation();
         </script>
+        
+        
 </body>
 
 </html>
