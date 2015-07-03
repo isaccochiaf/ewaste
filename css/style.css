@@ -212,7 +212,11 @@ header.smaller #title-head {
     }
     header nav a {
         line-height: 50px;
-        margin: 0 10px;
+        margin: 0;
+        width: 30px;
+        height:30px;
+        position: absolute;
+        right: 10px;
     }
     header.smaller {
         height: 50px;
@@ -385,7 +389,7 @@ background-image: url(../images/section_03_burning_02.jpg);
 
 .overlay-first-band {
     background-color: rgba(218, 150, 12, 0.78);
-    height:23%;
+    height:100%;
     padding-top:4%;
     color:#fff !important;
         
@@ -421,6 +425,13 @@ background-image: url(../images/section_03_burning_02.jpg);
 .overlay-second-band p {
     font-size:1em;
 }
+
+
+footer {background-color: #212121; padding: 35px 0 35px 0; margin-top: 120px;}
+footer hr { border-color: #fff}
+footer h6 {color: #da960c; text-align: center}
+footer p{ color: #bebebe; text-align: center; font-size: 14px;  }
+
 
 
 

@@ -53,7 +53,7 @@
         window.onload = init();
 
         $(function () {
-            $(".show a").click(
+            $(".show").click(
                 function () {
                     $(".overlay-Big").fadeIn();
                     event.preventDefault();
@@ -89,26 +89,7 @@
             </div>
         </div>
 
-        <div class="overlay-second-band">
-            <div class="row">
-                <div class="medium-8 medium-centered columns">
-                    
-                    <p>Un reportage di <a href="https://twitter.com/JacopoOttaviani" target="_blank">Jacopo Ottaviani</a> realizzata grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation. 
-                        <br />
-                       
-                        
-                        <br />Fotografia e design <a href="http://isaccochiaf.me" target="_blank">Isacco Chiaf</a>
-                        <br />Montaggio: Juanita Rodriguez Onzaga
-                        <br />Traduzioni: -</p>
-
-                    <hr>
-                </div>
-
-                <br />
-
-
-            </div>
-        </div>
+        
     </div>
 
 
@@ -119,15 +100,15 @@
 
                 <img src="images/logo.png">
                 <h6 id="title-head">E-waste Republic</h6>
-                <nav class="hide-for-small">
-                    <ul>
+                <nav>
+                    <ul class="hide-for-small">
                         <li><a id="ref_tw" href="http://twitter.com/home?status=Vita%2C morte e miracoli dei rifiuti elettronici. Guarda il web documentario URL %23LifeDeathMiraclesEwaste @JacopoOttaviani&related=JacopoOttaviani" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;"><i class="fa fa-twitter"></i></a></li>
                         <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li class="show"><a href="#"><i class="fa fa-info-circle"> about</i></a></li>
+                       <!-- <li class="show"><a href="#"><i class="fa fa-info-circle"> about</i></a></li>-->
                     
                     </ul>
                     
-                    
+                        <a href="#" class="show-for-small-only show"><i class="fa fa-info-circle"></i></a>
                     
                     
                 </nav>
@@ -583,6 +564,32 @@ D’altronde chi è costretto a vivere qui e a riciclare i rifiuti elettronici a
 
             </div>
         </div>
+        <footer>
+             <div class="row">
+            <div class="medium-8 medium-centered columns"><br />
+                <h6>E-waste Republic</h6>
+                <br />
+                <center>
+                <img src="images/divider-01.svg">
+            </center>
+                <br />
+                <p>Un reportage di Jacopo Ottaviani realizzato grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation. </p>
+                
+               
+                <p>Testi e dati: Jacopo Ottaviani<br />
+                Fotografia e design: Isacco Chiaf<br />
+                Montaggio: Juanita Rodriguez Onzaga<br />
+                    Traduzioni: </p>
+                <br />
+                <center>
+                <img width="100px" src="images/footer_ejclogo.png">
+                    </center>
+                 </div>
+            </div>
+        
+            
+        
+        </footer>
         
        <!-- --------------------------------------CHAPTER_04 .------------------------ --> 
 
