@@ -114,16 +114,16 @@ header nav {
     float: right;
     width: 210px;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: -90px;
 }
 header nav a {
     color: white;
    background-color: transparent;
     top:10px;
-    right: 300px;
+    right: 15px;
     opacity: 0;
     height: 100px;
-    width: 200px;
+    width: 100px;
      border: solid #fff 1px;
     padding: 5px 10px;
     margin: 5px;
@@ -193,14 +193,13 @@ header.smaller #title-head {
     
     header img {
     
-    width:150px;
-        height: 25px;
+    width:44px;
+       
     }
     
     header.smaller img {
     
-    width:120px;
-        height: 18px;
+    width:25px;
     }
     
     header nav {
@@ -233,6 +232,10 @@ header.smaller #title-head {
         line-height: 35px;
         border: solid #fff 1px;
         padding: 5px;
+    }
+    
+     header.smaller #title-head {
+        margin-top: 25px;
     }
 }
 
