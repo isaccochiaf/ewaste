@@ -14,6 +14,13 @@
     .tabs .tab-title > a img {
         width: 20px;
     }
+    
+    .quote {
+    background-image: url(../images/quote_small.jpg);
+    background-repeat: no-repeat;
+    font-size: 19px;
+    padding: 0 10px 0 50px
+}
 }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
