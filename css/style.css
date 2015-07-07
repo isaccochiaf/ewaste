@@ -38,7 +38,16 @@
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
-@media only screen and (min-width: 40.063em) {}
+@media only screen and (min-width: 40.063em) {
+
+     div.bg-burning {
+    background-image: url();
+    width: 100%;
+    height: 200px;
+    margin-bottom: 64px;
+    }
+    
+}
 /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {}
